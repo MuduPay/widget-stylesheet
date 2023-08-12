@@ -25,7 +25,7 @@
 #phone{
   border: 2px solid #0072fe69;
   font-size: 28px;
-  line-height: 20px;
+  line-height: 40px;
   color: #212121;
   padding: 6px;
   height: 80px;
@@ -66,7 +66,7 @@
   cursor: pointer;
   border: none;
   font-size: 25px;
-  line-height: 16px;
+  line-height: 20px;
   background-color: rgb(49, 106, 238);
   color: #004ef74f;
   border-radius: 10px;
@@ -107,7 +107,7 @@
 .remit-alertbox-message, .remit-title-description, .remit-primary-title {
    font-family: "Open Sans", sans-serif;
    color: #656b72;
-   size: 25px !important;
+   size: 30px !important;
 }
 #remit-msg {
    font-size: 30px;
@@ -126,4 +126,7 @@
 }
 .remit-msg-info {
    font-size: 20px;
+}
+.remit-radio-label {
+   font-size: 30px;
 }
