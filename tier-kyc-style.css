@@ -135,11 +135,12 @@
 }
 
 .remit-button, .continue {
-  background-color: #1077b4 !important;
+   margin-top: 20px;
+   background-color: #1077b4 !important;
 }
 
 .remit-service-container .remit-form-column {
    border: 0px;
    width: 100%;
-   padding-bottom: 5px !important;
+   padding-bottom: 25px !important;
 }
