@@ -1,7 +1,6 @@
 .remit-service-container{
     padding: 0 40px;
     height: 100vh;
-
 }
 
 .remit-service-container .remit-form-column {
@@ -24,11 +23,11 @@
 .remit-service-container .remit-form-mobile-input, 
 #phone{
   border: 2px solid #0072fe69;
-  font-size: 28px;
+  font-size: 22px;
   line-height: 40px;
   color: #212121;
   padding: 6px;
-  height: 80px;
+  height: 70px;
   border-radius: 10px;
   padding-left: 20px;
 }
@@ -107,13 +106,19 @@
 .remit-alertbox-message, .remit-title-description, .remit-primary-title {
    font-family: "Open Sans", sans-serif;
    color: #656b72;
-   size: 30px !important;
+   size: 50px !important;
 }
 #remit-msg {
-   font-size: 30px;
-}
-#disclaimer-btn, .remit-service-container * {
    font-size: 20px;
+}
+.remit-primary-title {
+   display: none;
+}
+#disclaimer-btn {
+   font-size: 16px;
+}
+.remit-service-container * {
+   font-size: 14px;
 }
 .remit-service-container .remit-form-mobile-input {
    width: 100%;
@@ -128,5 +133,9 @@
    font-size: 20px;
 }
 .remit-radio-label {
-   font-size: 30px;
+   font-size: 20px;
+}
+
+.remit-button, .continue {
+  background-color: #1077b4 !important;
 }
