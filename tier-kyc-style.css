@@ -6,7 +6,7 @@
 .remit-service-container .remit-form-column {
     border: 0px;
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     display: block;
     gap: 12px;
  }
@@ -23,8 +23,8 @@
 .remit-service-container .remit-form-mobile-input, 
 #phone{
   border: 2px solid #0072fe69;
-  font-size: 22px;
-  line-height: 40px;
+  font-size: 20px;
+  line-height: 30px;
   color: #212121;
   padding: 6px;
   height: 70px;
@@ -37,7 +37,7 @@
   display: block;
   margin-bottom: 10px;
   opacity: .7;
-  font-size: 22px;
+  font-size: 14px;
   line-height: 20px;
   color: #656b72;
 }
@@ -56,7 +56,7 @@
   line-height: 16px;
   color: #fff;
   -webkit-appearance: none;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
 .remit-service-container .remit-file-browse,
 .remit-service-container .remit-change-btn {
