@@ -39,12 +39,6 @@
   line-height: 20px;
   color: #656b72;
 }
-.remit-service-container .remit-info-box .remit-info-paragraph,
-.remit-service-container .remit-info-box .remit-info-list li {
-  font-size: 30px;
-  line-height: 50px;
-  color: #212121;
-}
 .remit-service-container .remit-button {
   padding: 16px 46px;
   border: none;
@@ -122,10 +116,10 @@
    width: 100%;
 }
 #phone-code {
-   width: 90%;
+   width: 100%;
 }
 #phone {
-   width: 200%
+   width: 100%;
 }
 .remit-msg-info {
    font-size: 20px;
@@ -137,10 +131,16 @@
 .remit-button, .continue {
    margin-top: 20px;
    background-color: #1077b4 !important;
+   width: 90%;
+   align-self: center;
+   margin-left: 5%;
 }
 
 .remit-service-container .remit-form-column {
    border: 0px;
    width: 100%;
    padding-bottom: 25px !important;
+}
+.mobile-code {
+   padding-left: 23px;
 }
